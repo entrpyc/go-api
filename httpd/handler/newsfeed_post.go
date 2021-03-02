@@ -13,7 +13,7 @@ func NewsfeedPost(feed newsfeed.Adder) http.HandlerFunc {
 
 		feed.Add(newsfeed.Item{
 			Title: request["title"],
-			Post: request["post"],
+			Post: request["post"], 
 		})
 
 		w.Write([]byte("Success!"))

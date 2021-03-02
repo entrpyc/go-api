@@ -4,7 +4,6 @@ import (
 	"go-api/platform/newsfeed"
 	"github.com/go-chi/chi/v5"
 	"net/http"
-	"encoding/json"
 	"fmt"
 	"go-api/httpd/handler"
 )
